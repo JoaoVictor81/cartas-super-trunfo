@@ -1,6 +1,6 @@
 
 /*
-        desafio nivel mestre
+        cartas super trunfo
 */
 #include <stdio.h>
 #include <locale.h>
@@ -61,7 +61,7 @@ int main()
     scanf("%s",cidade1);
     printf("populacao: ");
     scanf("%lu",&populacao1);
-    printf("área (em km2): ");
+    printf("Ã¡rea (em km2): ");
     scanf("%f",&area1);
     printf("PIB: ");
     scanf("%f",&PIB1);
@@ -81,12 +81,12 @@ int main()
     printf("codigo da carta: %s \n",codigo1);
     printf("nome da cidade: %s \n",cidade1);
     printf("populacao: %lu \n",populacao1);
-    printf("área: %.2f km² \n",area1);
+    printf("Ã¡rea: %.2f kmÂ² \n",area1);
     printf("PIB: %.2f reais \n",PIB1);
     printf("numero de pontos turisticos: %d \n",pontosTuristicos1);
-    printf("densidade populacional: %.2f hab/km²\n ",densidade1);
+    printf("densidade populacional: %.2f hab/kmÂ²\n ",densidade1);
     printf("PIB per capita: %.2f reais \n", PIBPerCapita1);
-    printf("o poder desta carta é: %.2f",poder1);
+    printf("o poder desta carta Ã©: %.2f",poder1);
 
     printf("\n\n");
 
@@ -100,7 +100,7 @@ int main()
     scanf("%s",cidade2);
     printf("populacao: ");
     scanf("%lu",&populacao2);
-    printf("área (em km²): ");
+    printf("Ã¡rea (em kmÂ²): ");
     scanf("%f",&area2);
     printf("PIB: ");
     scanf("%f",&PIB2);
@@ -120,18 +120,18 @@ int main()
     printf("codigo da carta: %s \n",codigo2);
     printf("nome da cidade: %s \n",cidade2);
     printf("populacao: %lu \n",populacao2);
-    printf("área: %.2f km² \n",area2);
+    printf("Ã¡rea: %.2f kmÂ² \n",area2);
     printf("PIB: %.2f reais \n",PIB2);
     printf("numero de pontos turisticos: %d \n",pontosTuristicos2);
-    printf("densidade populacional: %.2f hab/km² \n",densidade2);
+    printf("densidade populacional: %.2f hab/kmÂ² \n",densidade2);
     printf("PIB per capita: %.2f reais \n", PIBPerCapita2);
-    printf("o poder desta carta é: %.2f",poder2);
+    printf("o poder desta carta Ã©: %.2f",poder2);
 
     printf("\n\n");
 
     //comparar cartas
     printf("---comparando cartas--- \n");
-    printf("populaçao: %s (%d)\n", comparacao(populacao1,populacao2), populacao1 > populacao2 );
+    printf("populaÃ§ao: %s (%d)\n", comparacao(populacao1,populacao2), populacao1 > populacao2 );
     printf("area: %s (%d)\n", comparacao(area1,area2), area1 > area2 );
     printf("PIB: %s (%d)\n", comparacao(PIB1,PIB2), PIB1 > PIB2 );
     printf("pontos turisticos: %s (%d)\n", comparacao(pontosTuristicos1,pontosTuristicos2), pontosTuristicos1 > pontosTuristicos2);
@@ -142,3 +142,4 @@ int main()
 return 0;
     
 }
+
